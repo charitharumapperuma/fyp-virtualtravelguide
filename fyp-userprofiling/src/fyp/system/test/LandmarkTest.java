@@ -8,8 +8,8 @@ import fyp.system.Landmark;
 
 /**
  * 
- * @author 	Charith Arumapperuma
- * @date 	04/11/2015
+ * @author Charith Arumapperuma
+ * @date 04/11/2015
  */
 public class LandmarkTest {
 
