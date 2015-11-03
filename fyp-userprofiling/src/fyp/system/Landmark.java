@@ -1,7 +1,9 @@
 package fyp.system;
 
-
 /**
+ * @author 	Charith Arumapperuma
+ * @date 	04/11/2015
+ * 
  * Landmark holds information about physical landmarks, i.e. buildings,
  * historical places, archiological destinations, etc. 
  * 
@@ -32,4 +34,47 @@ public class Landmark {
 		this.name = name;
 		this.features = features;
 	}
+
+	/**
+	 * @return the id
+	 */
+	public int getId() {
+		return id;
+	}
+
+	/**
+	 * @param id the id to set
+	 */
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	/**
+	 * @return the name
+	 */
+	public String getName() {
+		return name;
+	}
+
+	/**
+	 * @param name the name to set
+	 */
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	/**
+	 * @return the features
+	 */
+	public int[] getFeatures() {
+		return features;
+	}
+
+	/**
+	 * @param features the features to set
+	 */
+	public void setFeatures(int[] features) {
+		this.features = features;
+	}
+	
 }
